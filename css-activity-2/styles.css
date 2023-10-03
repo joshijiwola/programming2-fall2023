@@ -1,0 +1,42 @@
+.odd{
+	background-color: rgb(230, 130, 130);
+	font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#two{
+	color:blue;
+	font-size: 36px
+}
+
+#three{
+	font-size: 34px;
+}
+
+#green{
+	background-color: lightgreen;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.big-font{
+	font-size: 24px;
+}
+
+
+.new-border{
+	border-style: dotted;
+	border-color: black;
+	border-width: 3px;
+}
+
+.cool-font{
+	font-family: 'Amatic SC';
+	font-size: 40px;
+	border-style: dotted;
+	border-color: red;
+	border-width: 3px;
+}
+
+
+
+
