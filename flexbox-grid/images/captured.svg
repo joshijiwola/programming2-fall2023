@@ -1,0 +1,21 @@
+<svg width="500"
+  height="60"
+  viewBox="0 0 600 50"
+  preserveAspectRatio="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <rect x="0"
+    y="0"
+    width="600"
+    height="50"
+    fill="#AD003A">
+  </rect>
+  <text x="50%"
+    y="50%"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    fill="white"
+    font-weight="900"
+    font-size="40px"
+    font-family="'Arial Black', 'Arial Bold', Arial, Helvetica, sans-serif">Captured</text>
+
+</svg>

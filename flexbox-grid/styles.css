@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    background: white;
+    font-family: 'Besley', serif;
+}
+
+p {
+color: white;
+}
+.item {
+    height: 200px;
+    width: 200px;
+    background-color: #AD003A;
+    border: 3px solid white; 
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    border: 3px solid white;
+    display: flex;
+    flex-direction: row;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    height: 70px;
+    background-color: #AD003A; 
+    display: flex;
+    width: 100%;
+}
+
+#large-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+}
+
+.larger {
+    background-color: #AD003A;
+    margin: 10px;
+    flex: 2;
+}
+
+.smaller {
+    background-color: white; 
+    margin: 10px;
+    flex: 1;
+}
+
+.panel {
+    background-color: white;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.header {
+    background: white; 
+    border-bottom: 1px solid white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.profile-image {
+    background: #AD003A;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .5);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-left: 20px;
+}
+
+.logo {
+    color: #AD003A;
+    font-size: 36px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #AD003A;
+    color: white;
+    padding: 8px 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #AD003A; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+.links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #AD003A;
+    font-weight: 600;
+}
+
+.notifications {
+    background: #AD003A; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+#footer {
+    background: #AD003A;
+    height: 60px;
+    display: flex;
+}
+
+#panel-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+#notification-profile{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#logo-item {
+	display: flex;
+	flex-direction: row;
+}
+
