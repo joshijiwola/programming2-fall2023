@@ -14,30 +14,31 @@
         <div class="player-section">
             <h2>Dealer</h2>
             <div class="card-container">
-            <img src="images/2C.svg" alt="2 of Clovers">
-            <img src="images/9S.svg" alt="9 of Spades">
-            <img src="images/KH.svg" alt="King of Hearts">
-            <img src="images/QD.svg" alt="Queen of Diamonds">
+            <img src="images/blank.svg" id="userCard1">
+            <img src="images/blank.svg" id="userCard2">
+            <img src="images/blank.svg" id="userCard3">
+            <img src="images/blank.svg"id="userCard4">
             </div>
-            <p class="score">Score: 0</p>
+            <p id="userScore">Score: 0</p>
             
         </div>
         <div class="player-section">
             <h2>Player</h2>
             <div class="card-container">
-            <img src="images/3C.svg" alt="3 of Clovers">
-            <img src="images/JS.svg" alt="Joker of Spades">
-            <img src="images/TH.svg" alt="10 of Hearts">
-            <img src="images/AD.svg" alt="Ace of Diamonds">
+            <img src="images/blank.svg" id="dealerCard1">
+            <img src="images/blank.svg" id="dealerCard2">
+            <img src="images/blank.svg" id="dealerCard3">
+            <img src="images/blank.svg" id="dealerCard4">
             </div>
-            <p class="score">Score: 0</p>
-            <div class="message">Player's turn</div>
+            <p id="dealerScore">Score: 0</p>
+            <p id="message">Player's turn</p>
             <div class="button-container">
-                <button class="hit">Hit</button>
-                <button class="stand">Stand</button>
-                <button class="reset">Reset</button>
+                <button id="hit" onclick="hit()" disabled = "true">Hit</button>
+                <button id="stand" onclick="stand()" disabled = "true">Stand</button>
+                <button id="reset" onclick="reset()">Reset</button>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
